@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox layoutX="54.0" layoutY="165.0" spacing="30.0">
+         <children>
+            <VBox>
+               <children>
+                  <Label fx:id="dlabel" alignment="CENTER" prefWidth="55.0" text="Days" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="daysLabel" alignment="CENTER" contentDisplay="CENTER" minWidth="-Infinity" prefWidth="55.0" text="Days" textAlignment="CENTER" textOverrun="CLIP">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets left="30.0" />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label fx:id="hlabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="68.0" text="Hours">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="hoursLabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="68.0" text="Hours" textAlignment="JUSTIFY">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label fx:id="mlabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="92.0" text="Minutes" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="minutesLabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="92.0" text="Minutes" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label fx:id="slabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="93.0" text="Seconds">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="secondsLabel" alignment="CENTER" contentDisplay="CENTER" prefWidth="93.0" text="Seconds" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Label fx:id="messageLabel" layoutX="130.0" layoutY="82.0" text="Do następnych urodzin" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
